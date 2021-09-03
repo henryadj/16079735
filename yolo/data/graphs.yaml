@@ -1,0 +1,7 @@
+train : C:/Users/hang026/PycharmProjects/scientificProject/hold-IQ-phase-3/yolo/graph_data/test/images/train
+val : C:/Users/hang026/PycharmProjects/scientificProject/hold-IQ-phase-3/yolo/graph_data/test/images/val
+test : C:/Users/hang026/PycharmProjects/scientificProject/hold-IQ-phase-3/yolo/graph_data/test/images/test
+
+nc : 1
+
+names : ['Entities']

@@ -1,0 +1,7 @@
+train : C:/Users/hang026/PycharmProjects/scientificProject/Graph_Images/YOLO/images/train
+val : C:/Users/hang026/PycharmProjects/scientificProject/Graph_Images/YOLO/images/val
+test : C:/Users/hang026/PycharmProjects/scientificProject/Graph_Images/YOLO/images/test
+
+nc : 1
+
+names : ['Entities']
