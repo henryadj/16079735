@@ -38,9 +38,6 @@ convert = converter('path/to/files', 'path/to/output')
 convert.Convert_All()
 ````
 
-## Line Detection (Hough Transform)
-A method using a rule based approach to convert the lines in images into data points with Hough Transform was experimented with
-but it is fragile and not robust, and was abandoned in favour of machine learning techniques.
 
 ## Graph Generation
 Using Graphviz and Networkx to generate graphs that have similar design style to the organisational group structures. This enabled the creation of a large number of synthetic group structures.
@@ -54,11 +51,6 @@ the cnn folder, but it turns out that it did not work well.
 ## Object Detection
 A system to automatically annotated the group structure images was created to enable to generation of large amount of training data. This system is very fragile however and adding text to the nodes will cause it to fail.
 An object detection model, YOLO-v5 was implemented during this project and trained with the generated group structure images. The best weights of the training is saved in the yolov-runs/runs/train/pre-trained folder. If more training is required, follow the README file in the yolo folder.
-
-## Attention Mechanism
-A model with attention mechanism was built to examine the viability of using for the extraction of the parent-child relationships of the entities, this came about from the failure of the CNN model.  Due to the lack of time, only an attention mechanism was implemented for classification
-of the existence of nodes in images or the lack of nodes. This can ba paired with other neural network to tackle the problem of extracting the parent-child relationship. This enables the 
-network to focus its attention on certain parts of the image for classification or regression problem.
 
 ## Optical Character Recognition
 Tesseract OCR (pytesseract) was experimented for the use of reading the text from entities provided with the bounding boxes. The 
